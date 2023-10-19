@@ -5,7 +5,7 @@ chan_latest_030423 <- readRDS("~/Documents/School/phd/mini-projects/chans_data/l
 
 
 m_w = c('Wildtype','Mutant') ##the conditions we care about
-cells_to_keep = c('RGP1','RGP2','RGP3','IP') ##the cells we want
+cells_to_keep = c('IN1','IN2','DLN','IN Progenitor') ##the cells we want
 
 for (value in cells_to_keep){
   for (cond in m_w){
